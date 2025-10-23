@@ -5,8 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // 👇 Only use base path in production (GitHub Pages)
-  base: mode === "production" ? "/The_NeutriCounsel/" : "/",
+  // ✅ Use repo name as base path for GitHub Pages
+  base: mode === "production" ? "/nutrico-mind-well-main/" : "/",
   server: {
     host: "::",
     port: 8080,
