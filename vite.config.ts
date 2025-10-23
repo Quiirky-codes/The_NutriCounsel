@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // ✅ Use repo name as base path for GitHub Pages
-  base: mode === "production" ? "/nutrico-mind-well-main/" : "/",
+  base: mode === "production" ? "/The_NutriCounsel/" : "/",
   server: {
     host: "::",
     port: 8080,
