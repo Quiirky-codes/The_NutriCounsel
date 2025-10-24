@@ -7,11 +7,12 @@ export default defineConfig(({ mode }) => {
   const isDev = mode === "development";
 
   return {
-    // ✅ Important: base path for GitHub Pages
+    // ✅ Important for GitHub Pages
     base: isDev ? "/" : "/The_NutriCounsel/",
 
+    // ✅ Use dist (default build folder)
     build: {
-      outDir: "docs", // GitHub Pages reads from /docs
+      outDir: "dist",
       emptyOutDir: true,
     },
 
