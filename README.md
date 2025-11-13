@@ -43,7 +43,7 @@ The backend will generate and save:
 output/flowchart_login.png
 
 
-##🧰 Tech Stack
+## Tech Stack
 
 * Python 
 
